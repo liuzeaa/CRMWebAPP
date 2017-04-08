@@ -295,87 +295,24 @@
                 dd_toast('接口错误，请联系管理员！', 'error', 0);
             })
         }, getUserInfo: function () {
-            var u = escape(getQueryString('username'));
-            //debugger;
-            getajax_async(pageurl1 + "/LoginTest.aspx", { phone: getQueryString('phone'), username: u }, function (json) {
-                if (json != null) {
-                    var retData = json.result.retData;
-                    //debugger;
-                    dd.ready(function () {
-                        if (retData == "")//若平台未返回信息跳转错误页面
-                        {
-                            dd_toast('您没有权限进入该系统,请联系管理员', 'error', 0);
-                            dd.biz.navigation.close({
-                                onSuccess: function (result) {
-                                    /*result结构
-                                    {}
-                                    */
-                                },
-                                onFail: function (err) { }
-                            })
-                        }
-                        else {
-                            //$("#body_Main").css("display", "inline")
-                        }
-                    });
-                    localStorage.setItem("username", retData[0].Name);
-
-                    localStorage.setItem("userid", retData[0].UniqueNo);
-
-                    localStorage.setItem("Phone", retData[0].Phone);
-                    localStorage.setItem("orgData", JSON.stringify(json.result.orgData));
-
-                    orgData = JSON.stringify(json.result.orgData);
-                    //userid = localStorage.getItem("userid");
-                    //username = localStorage.getItem("username");
-
-                    //var roots = ['D59CD2E5-2BA8-4803-A09F-C342B5D658EC', 'E197ABC0-E071-4DAA-9299-9FB316720B09', 'F4C7BE25-6482-4028-90E3-3BC5D8268338', '2EB80A19-E6D4-489A-82E0-E7FED8908109'];
-                    //分别为刘云诚、彭会平、姜玲娜、黄泳绮
-
-                    $("#username").html(retData[0].Name);
-
-                    if (userid == null || userid == undefined) {
-                        userid = localStorage.getItem("userid")
-                    }
-                    //var isHighLimit = false;
-                    //if (userid == 'D59CD2E5-2BA8-4803-A09F-C342B5D658EC' || userid == 'E197ABC0-E071-4DAA-9299-9FB316720B09' || userid == 'F4C7BE25-6482-4028-90E3-3BC5D8268338' || userid == '2EB80A19-E6D4-489A-82E0-E7FED8908109')
-                    //{
-                    //    isHighLimit = true;
-                    //}
-                    /*统计数据请求*/
+        		orgData = localStorage.getItem("orgData");
+        		userid = localStorage.getItem("userid");
+					/*统计数据请求*/
                     var data = {
                         Func: "DataInit",
                         cust_users: userid,
                         orgData: orgData,
                         guid: userid,
                     }
-
-
                     getajax_async(url, data, function (json) {
 
                         httpData.weekData();
                         httpData.submitData();
                     });
-
-                }
-            }, function () {
-                dd_toast('接口错误，请联系管理员！', 'error', 0);
-            })
-
             if (username != null || username != undefined) {
                 $("#username").html(username);
             }
         }
     }
-
-    function getQueryString(name) {
-        var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i');
-        var r = window.location.search.substr(1).match(reg);
-        if (r != null) {
-            return unescape(r[2]);
-        }
-        return null;
-    }
-
 
 </script>

@@ -1,5 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SelectClientele.aspx.cs" Inherits="CRMAPP.VisitSign.SelectClientele" %>
-
+﻿
 <!doctype html>
 <html>
 <head>
@@ -27,13 +26,13 @@
             top: 0;
         }
     </style>
-    <%--    <script type="text/template" id="list_template">
+    <!--    <script type="text/template" id="list_template">
         <% $.each(retData,function(index,item){ %>
         <li><input type="hidden" name="cust_id" value="<%=item.id%>"><input type="hidden" name="cust_name" value="<%=item.cust_name%>"><input type="hidden" name="distance" value="<%=item.distance%>">
             <div class="clearfix"><span class="school fl"><%=item.cust_name%></span><span class="fr people" style='<%=item.distance>2000?"color:red":""%>'><%=item.distance%>m</span></div>
             <div class="clearfix"><span class="piancha fl"><i class="iconfont">&#xe68a;</i><%=item.cust_address%></span></div></li>
         <% }) %>
-    </script>--%>
+    </script>-->
     <script>
         var VisitSign_needfresh = getQueryString("VisitSign_needfresh");
         if (VisitSign_needfresh == 'true') {

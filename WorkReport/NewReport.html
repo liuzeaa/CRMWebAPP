@@ -1,5 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="NewReport.aspx.cs" Inherits="CRMAPP.WorkReport.NewReport" %>
-
+﻿
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,7 +20,7 @@
         document.write("<s" + "cript type='text/javascript' src='../js/pagejs/dd_navigation.js?did=fdfd&number=" + Math.random() + "'></s" + "cript>");
         document.write("<s" + "cript type='text/javascript' src='../js/pagejs/new_report.js?ssf=11&number=" + Math.random() + "'></s" + "cript>");
     </script>
-    <%--    
+    <!--    
     <script type="text/template" id="list_template">
         <% $.each(retData,function(index,item){ %>
         <li><div class="mes_wrap clearfix"><div class="people_img fl"><img src="../images/people_img.jpg" />
@@ -29,7 +28,7 @@
                     </div><div class="content"><%=item.wp_content%></div><div class="detail"><span><%=item.cust_name%></span><b>|</b><span><%=item.link_name%></span>
                     </div></div></div></li>
         <% }) %>
-    </script>--%>
+    </script>-->
     <style>
         .mes_lists li .mes_wrap .mes_deta .img_wrap {
             height: auto;
@@ -55,8 +54,7 @@
                 <input type="hidden" name="report_type" fl="报告类型" id="report_type" value="">
                 <input type="hidden" name="t_picture" fl="今日图片" id="picture" value="">
                 <input type="hidden" name="m_picture" fl="明日计划" id="picture_t" value="">
-                <%-- <input type="hidden" name="report_reader_name" fl="发送人" id="report_reader_name" value="">
-                <input type="hidden" name="report_sender_name" fl="抄送人" id="report_sender_name" value="">--%>
+
                 <div class="input-row clearfix">
                     <div class="icon fl" style="background: #87d8ef;">
                         <i class="iconfont">&#xe60c;</i>

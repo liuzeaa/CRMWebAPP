@@ -8,21 +8,21 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="format-detection" content="telephone=no" />
     <title>首页</title>
-    <link href="/css/mui.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/css/iconfont.css" />
-    <link rel="stylesheet" href="/css/style.css?du=hhdh" />
-    <script src="/js/zepto.min.js"></script>
-    <script src="/js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/iconfont.css" />
+    <link rel="stylesheet" href="css/style.css?du=hhdh" />
+    <script src="js/zepto.min.js"></script>
+    <script src="js/mui.min.js"></script>
     <script type="text/javascript" src="http://g.alicdn.com/dingding/open-develop/0.8.4/dingtalk.js"></script>
-    <script src="/js/public.js?dsi=321"></script>
-    <script type="text/javascript" src="/js/ejs.min.js"></script>
+    <script src="js/public.js?dsi=321"></script>
+    <script type="text/javascript" src="js/ejs.min.js"></script>
     <!--<script>
         if (localStorage.getItem("CanEnterCrm") == "NO") {
             window.location.href = "error.html";
         }
     </script>-->
     <script type="text/javascript">
-        document.write("<s" + "cript type='text/javascript' src='/js/pagejs/dd_navigation.js?d=dsj&number=" + Math.random() + "'></s" + "cript>");      
+        document.write("<s" + "cript type='text/javascript' src='js/pagejs/dd_navigation.js?d=dsj&number=" + Math.random() + "'></s" + "cript>");      
     </script>
     <script type="text/template" id="list_template">
         <% $.each(retData,function(index,item){ %>
@@ -173,7 +173,6 @@
     }
 
 
-    dd_setRightNone();
     var u = navigator.userAgent;
     var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
     $('.enter').on('tap', 'a', function () {

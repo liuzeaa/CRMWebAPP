@@ -1,259 +1,259 @@
 {
-	"index.html": {
-		"resources": [
-			"images/followuprecord.png",
-			"images/workplan.png",
-			"images/visitsign.png",
-			"js/pagejs/index.js",
-			"js/public.js",
-			"css/style.css",
-			"images/touxiang.png",
-			"fonts/iconfont.woff",
-			"images/banner.jpg",
-			"js/mui.min.js",
-			"images/workreport.png",
-			"js/zepto.min.js",
-			"css/iconfont.css",
-			"css/mui.min.css",
-			"/images/nomessage.png",
-			"js/pagejs/dd_navigation.js",
-			"js/ejs.min.js",
-			"WorkPlan/WorkPlan.html",
-			"CustomerInfo/CustomerInfo.html",
-			"SalesKit/SalesKit.html",
-			"FollowRecord/FollowupRecord.html",
-			"WorkReport/WorkReport.html",
-			"VisitSign/VisitSign.html",
-			"LinkMan/LinkMan.html",
-			"ShareCircle/ShareCircle.html"
-		],
-		"refer": [
-			"WorkPlan/WorkPlan.html",
-			"CustomerInfo/CustomerInfo.html",
-			"SalesKit/SalesKit.html",
-			"FollowRecord/FollowupRecord.html",
-			"WorkReport/WorkReport.html",
-			"VisitSign/VisitSign.html",
-			"LinkMan/LinkMan.html",
-			"ShareCircle/ShareCircle.html"
-		]
-	},
-	"WorkPlan/WorkPlan.html": {
-		"resources": [
-			"fonts/mui.ttf",
-			"js/public.js",
-			"js/pagejs/workplan.js",
-			"css/style.css",
-			"js/pagejs/dd_navigation.js",
-			"js/pagejs/common.js",
-			"WorkPlan/NewWorkPlan.aspx",
-			"index.html"
-		],
-		"refer": [
-			"WorkPlan/NewWorkPlan.aspx",
-			"index.html"
-		]
-	},
-	"CustomerInfo/CustomerInfo.html": {
-		"resources": [
-			"index.html",
-			"fonts/mui.ttf",
-			"css/style.css",
-			"js/pagejs/customer.js",
-			"js/pagejs/dd_navigation.js",
-			"js/pagejs/common.js",
-			"js/mui.min.js",
-			"js/zepto.min.js",
-			"js/public.js",
-			"css/iconfont.css",
-			"css/mui.min.css",
-			"fonts/iconfont.woff",
-			"js/ejs.min.js",
-			"CustomerInfo/NewCustomer.html"
-		],
-		"refer": [
-			"index.html",
-			"CustomerInfo/NewCustomer.html"
-		]
-	},
-	"SalesKit/SalesKit.html": {
-		"resources": [
-			"/js/mobiscroll.custom-3.0.0-beta2.min.js",
-			"index.html",
-			"js/jquery-1.8.3.min.js",
-			"js/public.js",
-			"js/pagejs/statistic.js",
-			"css/style.css",
-			"css/mobiscroll.custom-3.0.0-beta2.min.css",
-			"images/people_img.jpg",
-			"js/pagejs/dd_navigation.js",
-			"js/pagejs/common.js",
-			"fonts/mui.ttf"
-		],
-		"refer": [
-			"index.html"
-		]
-	},
-	"FollowRecord/FollowupRecord.html": {
-		"resources": [
-			"js/pagejs/follow_up.js",
-			"js/mui.zoom.js",
-			"js/public.js",
-			"js/mui.previewimage.js",
-			"js/pagejs/dd_navigation.js",
-			"js/pagejs/common.js",
-			"index.html",
-			"fonts/mui.ttf",
-			"css/style.css",
-			"images/people_img.jpg"
-		],
-		"refer": [
-			"index.html",
-			"FollowRecord/NewFollowup.aspx",
-			"FollowRecord/SeeFollowupRecord.html"
-		]
-	},
-	"WorkReport/WorkReport.html": {
-		"resources": [
-			"js/mui.pullToRefresh.js",
-			"index.html",
-			"js/pagejs/sub_report.js",
-			"js/mui.pullToRefresh.material.js",
-			"js/public.js",
-			"js/pagejs/workreport.js",
-			"js/pagejs/dd_navigation.js",
-			"js/pagejs/common.js",
-			"fonts/mui.ttf",
-			"css/style.css",
-			"WorkReport/NewReport.aspx"
-		],
-		"refer": [
-			"index.html",
-			"WorkReport/CheckReport.html",
-			"WorkReport/NewReport.aspx"
-		]
-	},
-	"VisitSign/VisitSign.html": {
-		"resources": [
-			"/js/mobiscroll.custom-3.0.0-beta2.min.js",
-			"index.html",
-			"js/public.js",
-			"js/pagejs/sign_in.js",
-			"js/pagejs/dd_navigation.js",
-			"js/pagejs/common.js",
-			"js/jquery-1.8.3.min.js",
-			"fonts/mui.ttf",
-			"css/style.css",
-			"css/mobiscroll.custom-3.0.0-beta2.min.css"
-		],
-		"refer": [
-			"index.html"
-		]
-	},
-	"LinkMan/LinkMan.html": {
-		"resources": [
-			"js/pagejs/linkman.js",
-			"js/public.js",
-			"css/style.css",
-			"js/pagejs/dd_navigation.js",
-			"js/pagejs/common.js",
-			"index.html",
-			"/images/nomessage.png"
-		],
-		"refer": [
-			"index.html"
-		]
-	},
-	"ShareCircle/ShareCircle.html": {
-		"resources": [
-			"index.html",
-			"/js/mui.zoom.js",
-			"js/public.js",
-			"js/pagejs/share.js",
-			"js/pagejs/dd_navigation.js",
-			"/js/mui.previewimage.js",
-			"js/pagejs/common.js",
-			"fonts/mui.ttf",
-			"css/style.css",
-			"js/mui.min.js",
-			"js/zepto.min.js",
-			"css/iconfont.css",
-			"css/mui.min.css",
-			"js/ejs.min.js"
-		],
-		"refer": [
-			"index.html"
-		]
-	},
-	"WorkReport/CheckReport.html": {
-		"resources": [
-			"js/mui.zoom.js",
-			"js/jquery-1.8.3.min.js",
-			"js/public.js",
-			"js/mui.previewimage.js",
-			"fonts/mui.ttf",
-			"css/style.css",
-			"fonts/iconfont.woff",
-			"js/mui.min.js",
-			"css/iconfont.css",
-			"css/mui.min.css",
-			"js/pagejs/new_report.js",
-			"js/pagejs/dd_navigation.js",
-			"js/ejs.min.js"
-		]
-	},
-	"FollowRecord/SeeFollowupRecord.html": {
-		"resources": [
-			"js/mui.picker.js",
-			"js/mui.picker.min.js",
-			"fonts/mui.ttf",
-			"js/public.js",
-			"css/style.css",
-			"css/mobiscroll.custom-3.0.0-beta2.min.css",
-			"css/mui.picker.css",
-			"fonts/iconfont.woff",
-			"js/pagejs/follow_up.js",
-			"js/mui.zoom.js",
-			"js/jquery-1.8.3.min.js",
-			"js/mui.min.js",
-			"js/mobiscroll.custom-3.0.0-beta2.min.js",
-			"js/mui.poppicker.js",
-			"css/iconfont.css",
-			"css/mui.min.css",
-			"js/mui.previewimage.js",
-			"css/mui.poppicker.css",
-			"js/pagejs/dd_navigation.js",
-			"js/ejs.min.js"
-		]
-	},
-	"CustomerInfo/NewCustomer.html": {
-		"resources": [
-			"js/mui.picker.js",
-			"js/mui.picker.min.js",
-			"js/public.js",
-			"css/style.css",
-			"js/pagejs/customer.js",
-			"css/mui.picker.css",
-			"js/pagejs/common.js",
-			"js/jquery-1.8.3.min.js",
-			"js/mui.zoom.js",
-			"js/mui.poppicker.js",
-			"js/mui.previewimage.js",
-			"css/mui.poppicker.css",
-			"js/pagejs/dd_navigation.js",
-			"js/mui.view.js",
-			"/Custom/SelectUser.html",
-			"fonts/mui.ttf",
-			"fonts/iconfont.woff",
-			"js/mui.min.js",
-			"css/iconfont.css",
-			"css/mui.min.css",
-			"js/ejs.min.js",
-			"CustomerInfo/CustomerInfo.html"
-		],
-		"refer": [
-			"/Custom/SelectUser.html",
-			"CustomerInfo/CustomerInfo.html"
-		]
-	}
+  "index.html": {
+    "resources": [
+      "images/followuprecord.png",
+      "images/workplan.png",
+      "images/visitsign.png",
+      "js/pagejs/index.js",
+      "js/public.js",
+      "css/style.css",
+      "images/touxiang.png",
+      "fonts/iconfont.woff",
+      "images/banner.jpg",
+      "js/mui.min.js",
+      "images/workreport.png",
+      "js/zepto.min.js",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "/images/nomessage.png",
+      "js/pagejs/dd_navigation.js",
+      "js/ejs.min.js",
+      "WorkPlan/WorkPlan.html",
+      "CustomerInfo/CustomerInfo.html",
+      "SalesKit/SalesKit.html",
+      "FollowRecord/FollowupRecord.html",
+      "WorkReport/WorkReport.html",
+      "VisitSign/VisitSign.html",
+      "LinkMan/LinkMan.html",
+      "ShareCircle/ShareCircle.html"
+    ],
+    "refer": [
+      "WorkPlan/WorkPlan.html",
+      "CustomerInfo/CustomerInfo.html",
+      "SalesKit/SalesKit.html",
+      "FollowRecord/FollowupRecord.html",
+      "WorkReport/WorkReport.html",
+      "VisitSign/VisitSign.html",
+      "LinkMan/LinkMan.html",
+      "ShareCircle/ShareCircle.html"
+    ]
+  },
+  "WorkPlan/WorkPlan.html": {
+    "resources": [
+      "fonts/mui.ttf",
+      "js/public.js",
+      "js/pagejs/workplan.js",
+      "css/style.css",
+      "js/pagejs/dd_navigation.js",
+      "js/pagejs/common.js",
+      "WorkPlan/NewWorkPlan.aspx",
+      "index.html"
+    ],
+    "refer": [
+      "WorkPlan/NewWorkPlan.aspx",
+      "index.html"
+    ]
+  },
+  "CustomerInfo/CustomerInfo.html": {
+    "resources": [
+      "index.html",
+      "fonts/mui.ttf",
+      "css/style.css",
+      "js/pagejs/customer.js",
+      "js/pagejs/dd_navigation.js",
+      "js/pagejs/common.js",
+      "js/mui.min.js",
+      "js/zepto.min.js",
+      "js/public.js",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "fonts/iconfont.woff",
+      "js/ejs.min.js",
+      "CustomerInfo/NewCustomer.html"
+    ],
+    "refer": [
+      "index.html",
+      "CustomerInfo/NewCustomer.html"
+    ]
+  },
+  "SalesKit/SalesKit.html": {
+    "resources": [
+      "/js/mobiscroll.custom-3.0.0-beta2.min.js",
+      "index.html",
+      "js/jquery-1.8.3.min.js",
+      "js/public.js",
+      "js/pagejs/statistic.js",
+      "css/style.css",
+      "css/mobiscroll.custom-3.0.0-beta2.min.css",
+      "images/people_img.jpg",
+      "js/pagejs/dd_navigation.js",
+      "js/pagejs/common.js",
+      "fonts/mui.ttf"
+    ],
+    "refer": [
+      "index.html"
+    ]
+  },
+  "FollowRecord/FollowupRecord.html": {
+    "resources": [
+      "js/pagejs/follow_up.js",
+      "js/mui.zoom.js",
+      "js/public.js",
+      "js/mui.previewimage.js",
+      "js/pagejs/dd_navigation.js",
+      "js/pagejs/common.js",
+      "index.html",
+      "fonts/mui.ttf",
+      "css/style.css",
+      "images/people_img.jpg"
+    ],
+    "refer": [
+      "index.html",
+      "FollowRecord/NewFollowup.aspx",
+      "FollowRecord/SeeFollowupRecord.html"
+    ]
+  },
+  "WorkReport/WorkReport.html": {
+    "resources": [
+      "js/mui.pullToRefresh.js",
+      "index.html",
+      "js/pagejs/sub_report.js",
+      "js/mui.pullToRefresh.material.js",
+      "js/public.js",
+      "js/pagejs/workreport.js",
+      "js/pagejs/dd_navigation.js",
+      "js/pagejs/common.js",
+      "fonts/mui.ttf",
+      "css/style.css",
+      "WorkReport/NewReport.aspx"
+    ],
+    "refer": [
+      "index.html",
+      "WorkReport/CheckReport.html",
+      "WorkReport/NewReport.aspx"
+    ]
+  },
+  "VisitSign/VisitSign.html": {
+    "resources": [
+      "/js/mobiscroll.custom-3.0.0-beta2.min.js",
+      "index.html",
+      "js/public.js",
+      "js/pagejs/sign_in.js",
+      "js/pagejs/dd_navigation.js",
+      "js/pagejs/common.js",
+      "js/jquery-1.8.3.min.js",
+      "fonts/mui.ttf",
+      "css/style.css",
+      "css/mobiscroll.custom-3.0.0-beta2.min.css"
+    ],
+    "refer": [
+      "index.html"
+    ]
+  },
+  "LinkMan/LinkMan.html": {
+    "resources": [
+      "js/pagejs/linkman.js",
+      "js/public.js",
+      "css/style.css",
+      "js/pagejs/dd_navigation.js",
+      "js/pagejs/common.js",
+      "index.html",
+      "/images/nomessage.png"
+    ],
+    "refer": [
+      "index.html"
+    ]
+  },
+  "ShareCircle/ShareCircle.html": {
+    "resources": [
+      "index.html",
+      "/js/mui.zoom.js",
+      "js/public.js",
+      "js/pagejs/share.js",
+      "js/pagejs/dd_navigation.js",
+      "/js/mui.previewimage.js",
+      "js/pagejs/common.js",
+      "fonts/mui.ttf",
+      "css/style.css",
+      "js/mui.min.js",
+      "js/zepto.min.js",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "js/ejs.min.js"
+    ],
+    "refer": [
+      "index.html"
+    ]
+  },
+  "WorkReport/CheckReport.html": {
+    "resources": [
+      "js/mui.zoom.js",
+      "js/jquery-1.8.3.min.js",
+      "js/public.js",
+      "js/mui.previewimage.js",
+      "fonts/mui.ttf",
+      "css/style.css",
+      "fonts/iconfont.woff",
+      "js/mui.min.js",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "js/pagejs/new_report.js",
+      "js/pagejs/dd_navigation.js",
+      "js/ejs.min.js"
+    ]
+  },
+  "FollowRecord/SeeFollowupRecord.html": {
+    "resources": [
+      "js/mui.picker.js",
+      "js/mui.picker.min.js",
+      "fonts/mui.ttf",
+      "js/public.js",
+      "css/style.css",
+      "css/mobiscroll.custom-3.0.0-beta2.min.css",
+      "css/mui.picker.css",
+      "fonts/iconfont.woff",
+      "js/pagejs/follow_up.js",
+      "js/mui.zoom.js",
+      "js/jquery-1.8.3.min.js",
+      "js/mui.min.js",
+      "js/mobiscroll.custom-3.0.0-beta2.min.js",
+      "js/mui.poppicker.js",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "js/mui.previewimage.js",
+      "css/mui.poppicker.css",
+      "js/pagejs/dd_navigation.js",
+      "js/ejs.min.js"
+    ]
+  },
+  "CustomerInfo/NewCustomer.html": {
+    "resources": [
+      "js/mui.picker.js",
+      "js/mui.picker.min.js",
+      "js/public.js",
+      "css/style.css",
+      "js/pagejs/customer.js",
+      "css/mui.picker.css",
+      "js/pagejs/common.js",
+      "js/jquery-1.8.3.min.js",
+      "js/mui.zoom.js",
+      "js/mui.poppicker.js",
+      "js/mui.previewimage.js",
+      "css/mui.poppicker.css",
+      "js/pagejs/dd_navigation.js",
+      "js/mui.view.js",
+      "/Custom/SelectUser.html",
+      "fonts/mui.ttf",
+      "fonts/iconfont.woff",
+      "js/mui.min.js",
+      "css/iconfont.css",
+      "css/mui.min.css",
+      "js/ejs.min.js",
+      "CustomerInfo/CustomerInfo.html"
+    ],
+    "refer": [
+      "/Custom/SelectUser.html",
+      "CustomerInfo/CustomerInfo.html"
+    ]
+  }
 }

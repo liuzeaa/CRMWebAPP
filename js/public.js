@@ -52,10 +52,7 @@ var pageurl1 = '';
 var username = '刘泽';*/
  var userid = localStorage.getItem("userid");
 var username = localStorage.getItem("username");
-if (userid == null ||username==null) {
 
-        window.location.href = "login.html";
-    }
 //var rs = [1438, 1491, 1563, 1566, 1613];
 //var roots = ['D59CD2E5-2BA8-4803-A09F-C342B5D658EC', 'E197ABC0-E071-4DAA-9299-9FB316720B09', 'F4C7BE25-6482-4028-90E3-3BC5D8268338', '2EB80A19-E6D4-489A-82E0-E7FED8908109'];
 //分别为刘云诚、彭会平、姜玲娜、黄泳绮

@@ -205,6 +205,10 @@
     var url = pageurl + "/Statistical/statistic_handle.ashx";
     var orgData;
     $(function () {
+    	if (userid == null || username==null) {
+
+        window.location.href = "Login.html";
+    }
         httpData.getUserInfo();
         if (userid != null) {
             httpData.weekData();

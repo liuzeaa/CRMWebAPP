@@ -97,12 +97,10 @@ var userid = localStorage.getItem("userid");
     }
     
     $(function () {
-    	
-		 if (userid != null ||username!=null) {
-		
-		        window.location.href = "indexTest.html";
-		    }
+    	if (userid != null || username!=null) {
 
+        window.location.href = "indexTest.html";
+    }
             createCode();
             $('#BtnLogin').on('click',function(){
                 Login();
